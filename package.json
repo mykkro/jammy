@@ -1,0 +1,56 @@
+{
+  "name": "jammy",
+  "version": "0.0.1",
+  "description": "A skeleton Jam package",
+  "homepage": "http://example.com",
+  "keywords": [
+    "package",
+    "example"
+  ],
+  "jam": {
+    "dependencies": {
+      "jquery": ">1.9.1",
+      "underscore": ">1.3.1"
+    },
+    "main": "example.js",
+    "shim": {
+      "deps": ["jquery"],
+      "exports": "Example"
+    },
+    "include": [
+      "example.js",
+      "README.md"
+    ]
+  },
+  "maintainers": [
+    {
+      "name": "Myrousz",
+      "email": "myrousz@gmail.com",
+      "web": "http://www.example.com" 
+    } 
+  ],
+  "contributors": [
+    {
+      "name": "Sadrovy Jezek",
+      "email": "sadrovyjezek@gmail.com",
+      "web": "http://www.example.com" 
+    } 
+  ],
+  "bugs": {
+    "mail": "dev@example.com",
+    "web": "http://www.example.com/bugs" 
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php",
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git", 
+      "url": "http://github.com/mykkro/jammy.git"
+    }
+  ],
+  "github": "http://github.com/mykkro/jammy"
+}
